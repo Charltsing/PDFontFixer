@@ -8,3 +8,17 @@ Therefore, you can probably guess why text becomes garbled after being copied an
 To solve this problem, I developed a software called PDFontFixer. It uses OCR to recognize each glyph within the fonts of the PDF document to obtain the corresponding Unicode code points, and then compiles these code points into a ToUnicode mapping table, which is saved back into the font within the PDF document. This way, we can copy and paste text normally.
 ![UI](https://github.com/Charltsing/PDFontFixer/blob/main/1.PNG)
 ![UI](https://github.com/Charltsing/PDFontFixer/blob/main/2.PNG)
+
+# How to Use:
+Open a PDF via the File menu, or simply drag and drop the document into the software window.
+Click on a font name to view its properties and check if it is embedded. This software only processes embedded fonts; it does not handle Type3 self-drawn PDF fonts.
+Press F4 to recognize all the characters rendered in the right window. You can click on a character image to manually correct it. It provides multiple functions, including insert, delete, modify, and modify and continue.
+Press F2 to save the Unicode mapping for the current font (saved to memory only).
+Repeat this process for all fonts that require mapping supplementation.
+Go to File > Save PDF.
+
+# Important Notes:
+Resizing the window may affect the OCR recognition accuracy.
+If red text appears after recognition, it indicates that the OCR result for that line may be incorrect.
+Conversely, the absence of red text does not guarantee that the OCR result is completely correct.
+Manual correction is still necessary.
