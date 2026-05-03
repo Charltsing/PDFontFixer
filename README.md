@@ -10,15 +10,15 @@ To solve this problem, I developed a software called PDFontFixer. It uses OCR to
 ![UI](https://github.com/Charltsing/PDFontFixer/blob/main/2.PNG)
 
 # How to Use:
-Open a PDF via the File menu, or simply drag and drop the document into the software window.
-Click on a font name to view its properties and check if it is embedded. This software only processes embedded fonts; it does not handle Type3 self-drawn PDF fonts.
-Press F4 to recognize all the characters rendered in the right window. You can click on a character image to manually correct it. It provides multiple functions, including insert, delete, modify, and modify and continue.
-Press F2 to save the Unicode mapping for the current font (saved to memory only).
-Repeat this process for all fonts that require mapping supplementation.
-Go to File > Save PDF.
+1. Open a PDF via the File menu, or simply drag and drop the document into the software window.  
+2. Click on a font name to view its properties and check if it is embedded. This software only processes embedded fonts; it does not handle Type3 self-drawn PDF fonts.  
+3. Press F4 to recognize all the characters rendered in the right window. You can click on a character image to manually correct it. It provides multiple functions, including insert, delete, modify, and modify and continue.  
+4. Press F2 to save the Unicode mapping for the current font (saved to memory only).  
+5. Repeat this process for all fonts that require mapping supplementation.  
+6. Go to File > Save PDF.
 
 # Important Notes:
-Resizing the window may affect the OCR recognition accuracy.
-If red text appears after recognition, it indicates that the OCR result for that line may be incorrect.
-Conversely, the absence of red text does not guarantee that the OCR result is completely correct.
-Manual correction is still necessary.
+1. Resizing the window may affect the OCR recognition accuracy.  
+2. If red text appears after recognition, it indicates that the OCR result for that line may be incorrect.  
+3. Conversely, the absence of red text does not guarantee that the OCR result is completely correct.  
+4. Manual correction is still necessary.  
